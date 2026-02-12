@@ -1,0 +1,88 @@
+header {
+    background-color: skyblue;
+    display: flex;             
+    justify-content: center;    
+    align-items: center;       
+    gap: 15px;                 
+    padding: 10px;
+}
+
+
+*{
+    margin:0px;
+}              
+
+header img {
+    height: 50px;
+    width: 50px;          
+}
+
+
+nav li{
+    display: inline;
+    margin-left: 50px;
+    align-items: center;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    color: white;
+}
+
+#content{
+    color: white;
+}
+
+
+nav ol li a{
+    text-decoration:none;
+    color:white;
+    font-size: large;
+    padding: 8px;
+}
+
+nav ol li a:hover{
+    text-decoration:none;
+    color:white;
+    font-size: large;
+    background-color: black;
+    border: solid black;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+footer a img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+section{
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url('images/Gemini_Generated_Image_ena24gena24gena2.png');
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 2/1;
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+}
+
+section div{
+    padding: 0px 40px;
+}
+
+section div h1{
+    font-size: 40px;
+}
+
+
+
+
+

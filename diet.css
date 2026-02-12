@@ -1,0 +1,126 @@
+header {
+    background-color: skyblue;
+    display: flex;             
+    justify-content: center;    
+    align-items: center;       
+    gap: 15px;                 
+    padding: 10px;
+}
+
+
+*{
+    margin:0px;
+}              
+
+header img {
+    height: 50px;
+    width: 50px;          
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(images/foodimages.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav li{
+    display: inline;
+    margin-left: 50px;
+    align-items: center;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    color: white;
+}
+
+nav ol li a{
+    text-decoration:none;
+    color:white;
+    font-size: large;
+    padding: 8px;
+}
+
+nav ol li a:hover{
+    text-decoration:none;
+    color:white;
+    font-size: large;
+    background-color: black;
+    border: solid black;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+footer a img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+section{
+    text-align: center;
+}
+
+#upw{
+    display: inline-block;
+    border: solid black;
+    height: 300px;
+    width: 250px;
+    margin: 60px 20px 60px 20px;
+    overflow: hidden;
+    img{
+            height: 300px;
+            width: 250px;
+            transition: all 0.2s ease-in-out;
+       }
+}
+
+#upw img:hover{
+    transform: scale(1.2);
+}
+
+#adw{
+    display: inline-block;
+    border: solid black;
+    height: 300px;
+    width: 250px;
+    margin: 60px 20px 60px 20px;
+    overflow: hidden;
+    img{
+            height: 300px;
+            width: 250px;
+            transition: all 0.2s ease-in-out;
+       }    
+}
+
+#adw img:hover{
+    transform: scale(1.2);
+}
+
+#low{
+    display: inline-block;
+    border: solid black;
+    height: 300px;
+    width: 250px;
+    margin: 60px 20px 60px 20px;
+    overflow: hidden;
+    img{
+            height: 300px;
+            width: 250px;
+            transition: all 0.2s ease-in-out;
+       }   
+}
+
+#low img:hover{
+    transform: scale(1.2);
+}
+
+#content{
+    color: white;
+}
