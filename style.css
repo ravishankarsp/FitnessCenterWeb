@@ -21,7 +21,7 @@ header img {
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/Gemini_Generated_Image_hl3ju6hl3ju6hl3j.png');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('Gemini_Generated_Image_hl3ju6hl3ju6hl3j.png');
     background-position: center;
     background-attachment: fixed;
 }
